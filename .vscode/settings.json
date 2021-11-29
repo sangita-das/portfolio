@@ -1,0 +1,18 @@
+{
+ 
+  "emmet.excludeLanguages": [
+
+    "markdown"
+  ],
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  },
+  "java.home": ""
+
+  
+
+ 
+}
+
