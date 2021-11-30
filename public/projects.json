@@ -1,0 +1,87 @@
+[
+  {
+      "image": "https://i.ibb.co/VpWDTcd/1.png",
+      "name": "Road Pedal",
+      "start": "Nov 2021",
+      "end": "Nov 2021",
+      "details": "Responsive MERN Stack bicycle shop project with full functionality.Separate user interface and functionality access for both admin and customer from their dashboard.Admin can add a new admin, manage products, add or delete any items; whereas after login customer can buy any products, review website and many more functionality.",
+      "technology": "Html CSS Material UI React js Firebase Express.js MonogoDB Heroku Nodejs JavaScript Axios",
+      "live": "https://bicycles-shop-road-pedal.web.app/",
+      "github": "https://github.com/sangita-das/-12.niche-website-client-side",
+      "server": "https://github.com/sangita-das/-12.niche-website-server-side"
+  },
+  {
+      "image": "https://i.ibb.co/ZmL68QC/3.png",
+      "name": "Cholo Ghuri",
+      "start": "Jun 2021",
+      "end": "Jun 2021",
+      "details": "Responsive MERN Stack Travel based website. For authentication functionality using firebase, connected backend site by hosting heroku. Visitor can book any resort and take special packages also give their feedback in review section.",
+      "technology": "React Nodejs JavaScript Axios Heroku Bootstrap Rest-Api Firebase Mongodb Stripe ",
+      "live": "https://tourism-blog-cholo-ghuri.web.app/",
+      "github": "https://github.com/sangita-das/-11.tourism-or-delivery-website-client-side",
+      "server": "https://github.com/sangita-das/-11.tourism-or-delivery-website-server-side"
+  },
+  {
+      "image": "https://i.ibb.co/QDppQ96/10.png",
+      "name": "Popular Healthcare LTD.",
+      "start": "Dec 2021",
+      "end": "Dec 2021",
+      "details": "Medical and healthcare based responsive website with firebase authentication.Authentication functionality, using firebase, google login, Sign up by email & password.",
+      "technology": "Reract Nodejs Bootstrap5 Rest-Api Firebase Mongodb  expressjs Heroku",
+      "live": "https://healthcare-website-assignment.web.app/",
+      "github": "https://github.com/sangita-das/-10.healthcare-related-website"
+      
+  },
+  {
+      "image": "https://i.ibb.co/gjwPhjn/7.png",
+      "name": "Honda CBR",
+      "start": "September 2021",
+      "end": "September 2021",
+      "details": "Honda CBR 300R Website landing page redesign",
+      "technology": "Html CSS Bootstrap Netlify Pluginhosting",
+      "live": "https://friendly-khorana-01b56c.netlify.app/",
+      "github": "https://github.com/sangita-das/-3.honda-cbr-bootstrap"
+  },
+  {
+      "image": "https://i.ibb.co/LQjdPJh/6.png",
+      "name": "Learning Point.",
+      "start": "June 2021",
+      "end": "June 2021",
+      "details": "Learning point is a educational website Design. Different types of course offering; the course duration and available offer are mentioned with footer part. A full educational website sample design",
+      "technology": "HTML CSS React-router React Bootstrap5",
+      "live": "https://learning-point-assi-9.netlify.app/",
+      "github": "https://github.com/sangita-das/9.review-website"
+  },
+  {
+      "image": "https://i.ibb.co/XYwh3hQ/5.png",
+      "name": "📖 Sodaipati Online Store.",
+      "start": "Oct 2021",
+      "end": "Oct 2021",
+      "details": "It a design of online business website. There are different types of products are signed with discount price, fashionable clothes, bags , parts all are available. The customer can add any products and buy from the site sample.",
+      "technology": "HTML CSS react bootstrap react-router ",
+      "live": "https://sodaipati-online-store-assi-7.netlify.app/",
+      "github": "https://github.com/sangita-das/-7.ranga-store-fix"
+  },
+  {
+      "image": "https://i.ibb.co/TWqRCZ8/4.png",
+      "name": "Book Archive",
+      "start": "January 2021",
+      "end": "January 2021",
+      "details": "Search any book",
+      "technology": "HTML CSS API bootstrap5",
+      "live": "https://angry-lamarr-19bdf1.netlify.app/",
+      "github": "https://github.com/sangita-das/6.book-archive"
+  },
+  {
+      "image": "https://i.ibb.co/F6YtSB0/Mac-Book-pro.png",
+      "name": "MacBook Pro",
+      "start": "April 2021",
+      "end": "April 2021",
+      "details": "MacBook customization Website.",
+      "technology": "HTML CSS JavaScript Bootstrap",
+      "live": "https://inspiring-shaw-da6308.netlify.app/",
+      "github": "https://github.com/sangita-das/-5.mac-book-pro"
+  }
+ 
+ 
+]

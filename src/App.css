@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+html {
+  line-height: 1.15;
+}
+
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
@@ -10,9 +17,14 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
 }
-@media(max-width:768px){
-  .particles-canvas{
+@media (max-width: 768px) {
+  .particles-canvas {
     display: none;
   }
 }
@@ -26,32 +38,154 @@ body {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.language {
+  background-color: #e5e7eb;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custom-orange-color {
+  color: #dc9326;
+}
+.my-border-bottom {
+  border-bottom: 2px solid #dc8d26;
+}
+
+.cool-link {
+  color: black;
+}
+
+.cool-link:hover {
+  color: #dcd926 !important;
+  transition: 0.2s;
+}
+
+/* navbar on hove style start*/
+
+.cool-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #dcbb26;
+  transition: width 0.4s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width 0.4s;
+}
+
+/* navbar on hove style end*/
+
+.hero-section {
+  text-align: justify;
+}
+
+.hyper-link {
+  text-decoration: none;
+  color: black;
+}
+
+.hyper-link:hover {
+  text-decoration: underline;
+  color: #dcc126;
+  transition: 0.2s;
+}
+
+/* .rounded{
+  border-radius: 20px !important;
+} */
+
+.project:hover img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.project:hover .project-name {
+  color: #dcca26;
+  text-decoration: underline;
+}
+
+.project img {
+  transition: 0.3s;
+}
+
+.btnDwnResume {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+}
+
+.btnDwnResume {
+  /* padding: 10px; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 7px;
+  /* display: block; */
+}
+
+.btnDwnResume:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btnContactMe {
+  background-image: linear-gradient(
+    to right,
+    #0fac55 0%,
+    #1ec55e 51%,
+    #14ad4f 100%
+  );
+}
+
+.btnContactMe {
+  /* padding: 10px; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 7px;
+  /* display: block; */
+}
+
+.btnContactMe:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-linkedIn {
+  background-color: #0e76a8;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-linkedIn:hover {
+  background-color: #0e76a8;
+  color: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-github {
+  background-color: #171515;
+  color: white;
+}
+.btn-github:hover {
+  background-color: #171515;
+  color: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
