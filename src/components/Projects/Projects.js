@@ -32,13 +32,17 @@ const Projects = () => {
                 isLoading ?
 
                 <Loading></Loading>
-
+                
                     :
 
-                    <div>
-                        <Bounce bottom cascade>
-                            <h4 className="text-uppercase fw-bold pb-3 text-center">My Projects</h4>
+                    <div className="text-dark fw-bold">
+
+<Bounce bottom cascade>
+     <h2 className="text-uppercase fw-bold pb-3 text-center text-light">My Projects</h2>
+
                         </Bounce>
+                        <div class="container row row-cols-1 row-cols-md-3 g-4">
+                        
 
                         <Fade bottom>
                             {
@@ -46,14 +50,18 @@ const Projects = () => {
                             }
                         </Fade>
 
-                        <div className="text-center pb-5">
+                        <div className="text-center pb-5 my-5">
                             <Link to="/projects">
-                                <button className="btn btn-dark">
-                                    See All Projects <FontAwesomeIcon icon={faAngleDoubleRight} />
+                                <button className="btn btn-light">
+                                  <span className="text-dark fw-bold">See All Projects </span>  <FontAwesomeIcon icon={faAngleDoubleRight} />
                                 </button>
                             </Link>
                         </div>
+                        
                     </div>
+                    </div>
+
+
 
 
             }

@@ -10,10 +10,10 @@ const SingleProject = ({ p }) => {
     const techSplit = tech.split(" ");
 
     return (
-        <div>
-            <div class="card mb-5 shadow-lg ">
+        <div className="h-100">
+            <div class="card mb-5 shadow-lg h-100">
                 <img src={p.image} class="card-img-top" alt="..." />
-                <div class="card-body">
+                <div class="card-body ">
                     <h5 class="card-title fw-bold">{p.name}</h5>
                     <p className="text-secondary">
                         <small>
@@ -41,31 +41,7 @@ const SingleProject = ({ p }) => {
 
                     </p>
                 </div>
-                <div className="card-footer pb-4 bg-white border-top-0 ">
-
-                    <a href={p.live} target="_blank" rel="noreferrer" className="">
-                        <button className="btn btn-outline-dark me-2 mb-2 mb-md-0">
-                            <FontAwesomeIcon icon={faGlobe} /> Live Website
-                        </button>
-                    </a>
-
-                    <a href={p.github} target="_blank" rel="noreferrer" className="">
-                        <button className="btn btn-outline-dark me-2 mb-2 mb-md-0">
-                            <FontAwesomeIcon icon={faGithub} /> Front-End GitHub
-                        </button>
-                    </a>
-
-                    {
-                        p.server &&
-
-                        <a href={p.server} target="_blank" rel="noreferrer" className="">
-                            <button className="btn btn-outline-dark me-2">
-                                <FontAwesomeIcon icon={faGithub} /> Back-End GitHub
-                            </button>
-                        </a>
-
-                    }
-                </div>
+                <button className="btn btn-dark mt-4" ><i class="fas fa-angle-double-right"></i> Explore More</button>
             </div>
         </div>
     );

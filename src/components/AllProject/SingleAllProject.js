@@ -14,7 +14,7 @@ const SingleAllProject = ({ p }) => {
 
     return (
 
-        <div class="col">
+        <div class="col  h-100">
             <div class="card h-100 shadow-lg bg-secondary project">
 
                 <img src={p.image} class="card-img-top" alt="..." />
@@ -57,7 +57,7 @@ const SingleAllProject = ({ p }) => {
 
 
 
-                <div className="card-footer pb-4 bg-primary border-top-0 ">
+                <div className="card-footer pb-4  border-top-0 ">
 
                     <a href={p.live} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-light bg-dark me-2 mb-2 mb-md-0" type="button">
                         <FontAwesomeIcon icon={faGlobe} /> Live Website
@@ -84,7 +84,7 @@ const SingleAllProject = ({ p }) => {
 
                 </div>
 
-
+               
             </div>
 
         </div>

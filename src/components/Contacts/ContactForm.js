@@ -10,15 +10,15 @@ const ContactForm = () => {
 
   const [formMsg, setFormMsg] = useState(true);
 
-
+  
   const handleFormSubmit = (event) => {
       event.preventDefault();
 
       emailjs.sendForm(
-          'service_rwhshis',
-          'template_balengn',
+          'service_s04o2su',
+          'template_93exy48',
           event.target,
-          'user_MvFO6nIJvOd5zMjvsk7Ma'
+          'user_LHVMNnpoRh5NOCx3QAi6S'
       ).then(result => {
           console.log('contact me result', result);
 
@@ -57,7 +57,11 @@ const ContactForm = () => {
 
 
   return (
+      
     <div>
+
+
+        
     <form onSubmit={handleFormSubmit}>
         <div className="form-floating mb-3 form-group">
             <input type="text" name="name" id="name" className="form-control" placeholder="Your Name " required />

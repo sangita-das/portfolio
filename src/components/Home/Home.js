@@ -6,12 +6,15 @@ import Banner from '../Banner/Banner';
 import './Home.css'
 import profileimage from './../../images/about/profileimg.png';
 import Footer from '../Footer/Footer';
+import Projects from '../Projects/Projects';
+import { Link } from 'react-router-dom';
+import Flip from 'react-reveal/Flip';
 
 
 
 const Home = () => {
   return (
-    <div className="bg-dark">
+    <div className="bg-secondary">
         
       <>
       
@@ -48,21 +51,32 @@ const Home = () => {
         </div>
 
         <div className="col-md-6">
-          <h1 className="text-light fw-bold position-relative d-flex align-items-center justify-content-center">About Me</h1>
+        <Flip left>
+        <h1 className="text-light fw-bold position-relative d-flex align-items-center justify-content-center">About Me</h1>
+        </Flip>
           <p className="text-black fw-bold">
+            <hr />
           Hi there! I'm Sangita. An aspiring MERN Stack Web Application Developer. I have experienced of 15+ web projects by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening. I love to solve real-world problems. I am strategic, goal-oriented, and always work with an end goal in mind. </p>
 
          <div className="text-dark row mb-3">
+         <Flip left>
          <div className="col-sm-6 py-2 ">
 <h6 className="fw-bold" >Linkdin: <a className="text-dark" href="https://www.linkedin.com/in/sangita-das-9954611a8/">https://www.linkedin.com/in/sangita-das-9954611a8/</a></h6>
         </div>
+         </Flip>
+         <Flip left>
          <div className="col-sm-6 py-2 ">
 <h6 className="fw-bold">Email: <span className="text-dark">sangita9606@gmail.com</span></h6>
 
         </div>
+         </Flip>
+        
          </div>
+         
 
-<Button variant="primary"className=" btn btn-outline-dark fw-bold mr-4">Hire Me</Button>
+<Link to="/about" >
+<Button className=" btn btn-outline-dark fw-bold mr-4">See More</Button>
+</Link>
         </div>
 
         
