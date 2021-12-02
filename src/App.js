@@ -7,6 +7,7 @@ import Blog from './components/Blog/Blog';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
+import MyProject from './components/MyProject/MyProject';
 import Navbar from './components/Navbar/Navbar';
 import NotFound from './components/NotFound/NotFound';
 import Projects from './components/Projects/Projects';
@@ -27,12 +28,13 @@ function App() {
               <Home></Home>
             </Route>
             
-            {/* <Route path="/projects">
-              <Projects></Projects>
-            </Route> */}
 
 <Route path="/projects">
               <AllProject></AllProject>
+            </Route>
+
+            <Route path="/myProject/:id">
+              <MyProject></MyProject>
             </Route>
             
             <Route path="/about">

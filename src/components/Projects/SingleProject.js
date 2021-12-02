@@ -3,9 +3,10 @@ import { faCalendar } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const SingleProject = ({ p }) => {
-
+const {_id} = p
     const tech = p.technology;
     const techSplit = tech.split(" ");
 
@@ -41,7 +42,10 @@ const SingleProject = ({ p }) => {
 
                     </p>
                 </div>
+               
+                <Link to={`/myProject/${_id}`}>
                 <button className="btn btn-dark mt-4" ><i class="fas fa-angle-double-right"></i> Explore More</button>
+                </Link>
             </div>
         </div>
     );

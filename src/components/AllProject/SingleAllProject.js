@@ -4,10 +4,12 @@ import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import { Link } from 'react-router-dom';
 
 
 const SingleAllProject = ({ p }) => {
 
+    const {_id} = p
 
     const tech = p.technology;
     const techSplit = tech.split(" ");
@@ -83,7 +85,9 @@ const SingleAllProject = ({ p }) => {
 
 
                 </div>
-
+                <Link to={`/myProject/${_id}`}>
+                <button className="btn btn-dark mt-4" ><i class="fas fa-angle-double-right"></i> Explore More</button>
+                </Link>
                
             </div>
 

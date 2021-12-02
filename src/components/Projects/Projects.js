@@ -16,7 +16,7 @@ const Projects = () => {
 
     useEffect(() => {
         async function callApi() {
-            let data = await fetch('../projects.json');
+            let data = await fetch('http://localhost:5000/projects');
             data = await data.json();
             setProjects(data.slice(0, 5));
             setIsLoading(false);

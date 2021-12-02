@@ -14,9 +14,10 @@ import Flip from 'react-reveal/Flip';
 
 const Home = () => {
   return (
+
+    <>
     <div className="bg-secondary">
         
-      <>
       
       <Particles 
                 params={{
@@ -92,10 +93,9 @@ const Home = () => {
 
   <Footer></Footer>
 
- </>
     </div>
 
-
+    </>
 
   );
 };
