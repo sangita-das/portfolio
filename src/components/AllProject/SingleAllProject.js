@@ -83,10 +83,10 @@ const SingleAllProject = ({ p }) => {
                     }
 
 
-
                 </div>
+
                 <Link to={`/myProject/${_id}`}>
-                <button className="btn btn-dark mt-4" ><i class="fas fa-angle-double-right"></i> Explore More</button>
+                <button className="btn btn-dark mt-4 " ><i class="fas fa-angle-double-right"></i> Explore More</button>
                 </Link>
                
             </div>
