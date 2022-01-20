@@ -15,7 +15,7 @@ const AllProject = () => {
 
     useEffect(() => {
         async function callApi() {
-            let data = await fetch('http://localhost:5000/projects');
+            let data = await fetch('https://quiet-hollows-55479.herokuapp.com/projects');
             data = await data.json();
             setAllProjects(data);
             setIsLoading(false);

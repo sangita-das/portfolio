@@ -16,7 +16,7 @@ const MyProject = () => {
 
     // single project data load by id
     useEffect(() => {
-      fetch(`http://localhost:5000/projects/${id}`)
+      fetch(`https://quiet-hollows-55479.herokuapp.com/projects/${id}`)
         .then(res => res.json())
         .then(data => setSingleProject(data))
     }, []);
