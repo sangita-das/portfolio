@@ -36,7 +36,7 @@ const MyProject = () => {
      <h4><u className="p-3 custom-orange-color fw-bold">Description:</u>{singleProject.details}</h4>
      <p><li>Project Start:{singleProject.start}</li>
      <li>Project End:{singleProject.end}</li></p>
-     <p class="card-text lh-lg">
+     <p className="card-text lh-lg">
                         <span className="fw-bold">Technology: </span>
                         {  
                          <span

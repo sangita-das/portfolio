@@ -40,7 +40,7 @@ const About = () => {
                     <div className="col-md-8 ">
                        
                         <p style={{ textAlign: 'justify' }}>
-                        I have completed my B.Sc from Leading University. Since my university life I am very passionate about programming, web designing and exploring new things different creative field. Building uo my career as a Front-End Web Developer I have  learned and experienced more website by using React.js, Material Ui, Tailwind, Bootstrap, React Hook Form, Javascript along with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, Heroku Firebase, Debugging and more tools.
+                        I have completed my B.Sc from Leading University. Since my university life I am very passionate about programming, web designing and exploring new things in different creative fields. Building to my career as a Front-End Web Developer I have learned and experienced more website by using React.js, Material Ui, Tailwind, Bootstrap, React Hook Form, Javascript along with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, Heroku Firebase, Debugging and more tools.
                         </p>
                     </div>
                 </div>

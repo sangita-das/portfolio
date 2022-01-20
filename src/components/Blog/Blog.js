@@ -18,16 +18,16 @@ const Blog = () => {
   <div className="col-sm-12 mb-2">
 <ul className="list-group list-group-horizontal ul-cls">
   <li className="list-group-item" >
-  <i class="fa fa-behance fa-2x" aria-hidden="true"></i>
+  <i className="fa fa-behance fa-2x" aria-hidden="true"></i>
   </li>
   <li className="list-group-item" >
-  <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+  <i className="fa fa-facebook fa-2x" aria-hidden="true"></i>
   </li>
   <li className="list-group-item" >
-  <i class="fab fa-linkedin-in fa-2x" aria-hidden="true" ></i>
+  <i className="fab fa-linkedin-in fa-2x" aria-hidden="true" ></i>
   </li>
   <li className="list-group-item" >
-  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+  <i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
   </li>
 </ul>
   </div>

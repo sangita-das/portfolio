@@ -16,21 +16,21 @@ const SingleAllProject = ({ p }) => {
 
     return (
 
-        <div class="col  h-100">
-            <div class="card h-100 shadow-lg bg-secondary project">
+        <div className="col  h-100">
+            <div className="card h-100 shadow-lg bg-secondary project">
 
-                <img src={p.image} class="card-img-top" alt="..." />
+                <img src={p.image} className="card-img-top" alt="..." />
 
-                <div class="card-body">
+                <div className="card-body">
                     <a href={p.live} target="_blank" rel="noreferrer" className="hyper-link">
-                        <h5 class="card-title project-name">{p.name}</h5>
+                        <h5 className="card-title project-name">{p.name}</h5>
                     </a>
                     <p className="text-light">
                         <small>
                             <FontAwesomeIcon icon={faCalendar} /> {p.start} <FontAwesomeIcon icon={faLongArrowAltRight} />  {p.end}
                         </small>
                     </p>
-                    <p class="card-text text-light">
+                    <p className="card-text text-light">
                         <ReactReadMoreReadLess
                             charLimit={100}
                             readMoreText={"+ more"}
@@ -39,7 +39,7 @@ const SingleAllProject = ({ p }) => {
                             {p.details}
                         </ReactReadMoreReadLess>
                     </p>
-                    <p class="card-text lh-lg">
+                    <p className="card-text lh-lg">
                         <span className="fw-bold">Technology: </span>
                         {
                             techSplit.map(singleTech => (
@@ -86,7 +86,7 @@ const SingleAllProject = ({ p }) => {
                 </div>
 
                 <Link to={`/myProject/${_id}`}>
-                <button className="btn btn-dark mt-4 " ><i class="fas fa-angle-double-right"></i> Explore More</button>
+                <button className="btn btn-dark mt-4 " ><i className="fas fa-angle-double-right"></i> Explore More</button>
                 </Link>
                
             </div>

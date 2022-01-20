@@ -47,7 +47,7 @@ const AllProject = () => {
                     <div>
 
 
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div className="row row-cols-1 row-cols-md-3 g-4">
                             <Zoom>
                                 {
                                     allProjects.map(project => <SingleAllProject p={project}></SingleAllProject>)

@@ -41,7 +41,7 @@ const Projects = () => {
      <h2 className="text-uppercase fw-bold pb-3 text-center text-light">My Projects</h2>
 
                         </Bounce>
-                        <div class="container row row-cols-1 row-cols-md-3 g-4">
+                        <div className="container row row-cols-1 row-cols-md-3 g-4">
                         
 
                         <Fade bottom>

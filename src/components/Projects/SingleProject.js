@@ -12,19 +12,19 @@ const {_id} = p
 
     return (
         <div className="h-100">
-            <div class="card mb-5 shadow-lg h-100">
-                <img src={p.image} class="card-img-top" alt="..." />
-                <div class="card-body ">
-                    <h5 class="card-title fw-bold">{p.name}</h5>
+            <div className="card mb-5 shadow-lg h-100">
+                <img src={p.image} className="card-img-top" alt="..." />
+                <div className="card-body ">
+                    <h5 className="card-title fw-bold">{p.name}</h5>
                     <p className="text-secondary">
                         <small>
                             <FontAwesomeIcon icon={faCalendar} /> {p.start} <FontAwesomeIcon icon={faLongArrowAltRight} />  {p.end}
                         </small>
                     </p>
-                    <p class="card-text">
+                    <p className="card-text">
                         {p.details}
                     </p>
-                    <p class="card-text lh-lg">
+                    <p className="card-text lh-lg">
                         <span className="fw-bold">Technology: </span>
                         {
                             techSplit.map(singleTech => (
@@ -44,7 +44,7 @@ const {_id} = p
                 </div>
                
                 <Link to={`/myProject/${_id}`}>
-                <button className="btn btn-dark mt-4" ><i class="fas fa-angle-double-right"></i> Explore More</button>
+                <button className="btn btn-dark mt-4" ><i className="fas fa-angle-double-right"></i> Explore More</button>
                 </Link>
             </div>
         </div>
